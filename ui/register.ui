@@ -17,8 +17,8 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>170</y>
+      <x>390</x>
+      <y>160</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -104,6 +104,30 @@ border-color: #2c6b4e;</string>
     </property>
     <property name="text">
      <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>350</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #5abc84;
+color: white;
+border-radius: 10px;
+border: 2px solid #4eaa76;
+padding: 8px 16px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>name</string>
     </property>
    </widget>
   </widget>
