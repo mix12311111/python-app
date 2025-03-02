@@ -17,189 +17,162 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>280</y>
-      <width>231</width>
-      <height>61</height>
+      <x>220</x>
+      <y>190</y>
+      <width>171</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-    background-color: #f8f8f8;
-
-
-
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: #888;
-
+     <string notr="true">border: 2px solid #3498db;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 16px;
+        background-color: #ecf0f1;
+        color: #2c3e50;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #3498db;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 16px;
+        background-color: #ecf0f1;
+        color: #2c3e50;</string>
+    </property>
+    <property name="placeholderText">
+     <string>email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>290</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #3498db;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 16px;
+        background-color: #ecf0f1;
+        color: #2c3e50;
 </string>
     </property>
     <property name="placeholderText">
      <string>password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>220</y>
-      <width>231</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-    background-color: #f8f8f8;
-
-
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: #888;
-
-</string>
-    </property>
-    <property name="placeholderText">
-     <string>full name</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>160</y>
-      <width>231</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-    background-color: #f8f8f8;
-
-
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: #888;
-
-</string>
-    </property>
-    <property name="placeholderText">
-     <string>email</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>370</y>
-      <width>231</width>
-      <height>71</height>
+      <x>230</x>
+      <y>340</y>
+      <width>141</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-    background-color: #3B3B98; /* Màu xanh đậm */
-    color: white; /* Màu chữ trắng */
-    padding: 15px 32px; /* Padding cho kích thước nút */
-    text-align: center; /* Canh giữa văn bản */
-    text-decoration: none; /* Không gạch chân */
-    display: inline-block; /* Hiển thị dạng inline-block */
-    font-size: 16px; /* Kích thước phông chữ */
-    margin: 4px 2px; /* Khoảng cách margin */
-    cursor: pointer; /* Con trỏ chuột khi hover */
-    border-radius: 12px; /* Bo góc */
-    border: none; /* Không có viền */
+     <string notr="true"> background-color: #e74c3c;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #c0392b;
+        transition: 0.3s;
+    
+  
+        background-color: #c0392b;
+        border: 2px solid #a93226;
+   
+        background-color: #922b21;
+        border: 2px solid #7b241c;
 
+        background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                                    stop:0 #ff7e5f, stop:1 #feb47b);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+ 
+        background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                                    stop:0 #feb47b, stop:1 #ff7e5f);
+    
+    
 </string>
     </property>
     <property name="text">
-     <string>login</string>
+     <string>Submit</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>340</y>
-      <width>91</width>
-      <height>24</height>
+      <x>440</x>
+      <y>120</y>
+      <width>341</width>
+      <height>301</height>
      </rect>
     </property>
     <property name="text">
-     <string>robot</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Downloads/image003-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="widget" native="true">
+   <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>-10</y>
-      <width>811</width>
-      <height>531</height>
+      <x>700</x>
+      <y>0</y>
+      <width>93</width>
+      <height>29</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, 
-                                stop: 0 #e0f7ff, stop: 1 #ffffff);
-    font-family: &quot;Arial&quot;;
-    font-size: 14px;
-    color: #333333;</string>
+    <property name="text">
+     <string>sign up</string>
     </property>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>100</y>
-       <width>531</width>
-       <height>371</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color:rgb(255, 255, 240)</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
    </widget>
-   <zorder>widget</zorder>
-   <zorder>lineEdit</zorder>
-   <zorder>lineEdit_2</zorder>
-   <zorder>lineEdit_3</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>checkBox</zorder>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>331</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Downloads/download.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
