@@ -81,34 +81,6 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="txt_name">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>220</y>
-      <width>331</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-        border: 2px solid #3498db;
-        border-radius: 10px;
-        padding: 5px;
-        font-size: 16px;
-        background-color: #ecf0f1;
-        color: #2c3e50;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="placeholderText">
-     <string>Full name</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>false</bool>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="txt_email">
     <property name="enabled">
      <bool>true</bool>
@@ -143,31 +115,6 @@
      <string>email</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="txt_conf_pwd">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>300</y>
-      <width>171</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-        border: 2px solid #3498db;
-        border-radius: 10px;
-        padding: 5px;
-        font-size: 16px;
-        background-color: #ecf0f1;
-        color: #2c3e50;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::EchoMode::Password</enum>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="txt_password">
     <property name="geometry">
      <rect>
@@ -193,7 +140,7 @@
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_register">
+   <widget class="QPushButton" name="btn_login">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -219,10 +166,10 @@
         border: 2px solid #7b241c;</string>
     </property>
     <property name="text">
-     <string>Register</string>
+     <string>Login</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_login">
+   <widget class="QPushButton" name="btn_register">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -232,7 +179,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Logi</string>
+     <string>register</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -268,23 +215,6 @@ color:rgb(255, 255, 255)</string>
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_eye_cp">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>320</y>
-      <width>31</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../OneDrive/Tài liệu/GitHub/python-app/img/eye-slash-solid.svg</normaloff>../../OneDrive/Tài liệu/GitHub/python-app/img/eye-slash-solid.svg</iconset>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btn_eye_p">
     <property name="geometry">
      <rect>
@@ -307,14 +237,11 @@ color:rgb(255, 255, 255)</string>
    <zorder>label</zorder>
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
-   <zorder>txt_name</zorder>
    <zorder>txt_email</zorder>
-   <zorder>txt_conf_pwd</zorder>
    <zorder>txt_password</zorder>
-   <zorder>btn_register</zorder>
    <zorder>btn_login</zorder>
+   <zorder>btn_register</zorder>
    <zorder>label_2</zorder>
-   <zorder>btn_eye_cp</zorder>
    <zorder>btn_eye_p</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
