@@ -60,6 +60,9 @@ class Login(QMainWindow):
         if user is not None:
             msg.success_box("Đăng nhập thành công")
             self.show_home(user["id"])
+        else:
+            msg.error_box("Email hoặc mật khẩu không chính xác")
+            self.email.setFocus()
 
     def show_home(self, user_id):
         self.home = Home(user_id)
