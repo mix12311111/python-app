@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QLabel" name="label">
@@ -186,7 +186,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../user-solid.svg</pixmap>
+       <pixmap>../img/circle-user-solid.svg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -235,7 +235,7 @@ color:rgb(255, 255, 255)</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../image-20240708153323-2__1_-removebg-preview.png</pixmap>
+       <pixmap>../img/image-20240708153323-2__1_-removebg-preview.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>false</bool>
@@ -254,7 +254,7 @@ color:rgb(255, 255, 255)</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../images.jfif</pixmap>
+       <pixmap>../img/images.jfif</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -307,7 +307,7 @@ background:rgb(0, 0, 0);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../tải_xuống__1_-removebg-preview.png</pixmap>
+       <pixmap>../img/tải_xuống__1_-removebg-preview.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -339,7 +339,7 @@ background:rgb(0, 0, 0);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../DALL·E 2025-03-14 19.19.18 - A dynamic and modern taxi logo design featuring the phrase 'Bên nhau trọn đường'. The logo includes a sleek taxi icon with bold, energetic typography.webp</pixmap>
+       <pixmap>../img/DALL·E 2025-03-14 19.19.18 - A dynamic and modern taxi logo design featuring the phrase 'Bên nhau trọn đường'. The logo includes a sleek taxi icon with bold, energetic typography.webp</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -353,11 +353,173 @@ background:rgb(0, 0, 0);</string>
      <zorder>pushButton_4</zorder>
      <zorder>label_12</zorder>
     </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>150</y>
+        <width>251</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../img/tải_xuống__1_-removebg-preview.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>250</y>
+        <width>351</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>book taxi sm 1m/2000d</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>300</y>
+        <width>93</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-1</y>
+        <width>1071</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>0</y>
+        <width>211</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../img/download (3).jfif</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_18</zorder>
+     <zorder>label_16</zorder>
+     <zorder>label_17</zorder>
+     <zorder>pushButton_6</zorder>
+     <zorder>label_19</zorder>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>-30</x>
+        <y>-1</y>
+        <width>1091</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>28</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>110</y>
+        <width>321</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../img/images.jfif</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>250</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>book taxi 1m/1000d</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>310</y>
+        <width>93</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ok</string>
+      </property>
+     </widget>
+    </widget>
    </widget>
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>0</y>
       <width>91</width>
       <height>531</height>
@@ -385,7 +547,7 @@ background:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../user-solid.svg</normaloff>../user-solid.svg</iconset>
+       <normaloff>../img/circle-user-solid.svg</normaloff>../img/circle-user-solid.svg</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -412,7 +574,7 @@ border:none;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../house-solid.svg</normaloff>../house-solid.svg</iconset>
+       <normaloff>../img/house-solid (1).svg</normaloff>../img/house-solid (1).svg</iconset>
      </property>
      <property name="iconSize">
       <size>

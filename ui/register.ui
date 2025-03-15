@@ -75,7 +75,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../image.webp</pixmap>
+     <pixmap>../img/image.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -248,7 +248,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../image003-removebg-preview.png</pixmap>
+     <pixmap>../img/image003.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -282,7 +282,7 @@ color:rgb(255, 255, 255)</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../OneDrive/Tài liệu/GitHub/python-app/img/eye-slash-solid.svg</normaloff>../../OneDrive/Tài liệu/GitHub/python-app/img/eye-slash-solid.svg</iconset>
+      <normaloff>../img/eye-slash-solid.svg</normaloff>../img/eye-slash-solid.svg</iconset>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_eye_p">
@@ -299,7 +299,7 @@ color:rgb(255, 255, 255)</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../OneDrive/Tài liệu/GitHub/python-app/img/eye-slash-solid.svg</normaloff>../../OneDrive/Tài liệu/GitHub/python-app/img/eye-slash-solid.svg</iconset>
+      <normaloff>../img/eye-slash-solid.svg</normaloff>../img/eye-slash-solid.svg</iconset>
     </property>
    </widget>
    <zorder>label_3</zorder>
