@@ -152,7 +152,29 @@ class Home(QMainWindow):
         super().__init__()
         uic.loadUi("ui/home.ui", self)
 
+        self.main_widget = self.findChild(QStackedWidget, "main_widget")
+        self.main_widget.setCurrentIndex(0)
+        
+        self.btn_nav_home = self.findChild(QPushButton, "btn_nav_home")
+        self.btn_nav_account = self.findChild(QPushButton, "btn_nav_account")
+        
+        self.btn_nav_home.clicked.connect(lambda: self.navMainScreen(0))
+        self.btn_nav_account.clicked.connect(lambda: self.navMainScreen(1))
+
         self.user_id = user_id
+        self.user = get_user_by_id(user_id)
+        self.loadAccountInfo()
+
+    def loadAccountInfo(self):
+        self.txt_name = self.findChild(QLineEdit, "txt_name")
+        self.txt_email = self.findChild(QLineEdit, "txt_email")
+
+        self.txt_name.setText(self.user["name"])
+        self.txt_email.setText(self.user["email"])
+        
+    def navMainScreen(self, index):
+        self.main_widget.setCurrentIndex(index)
+        
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
