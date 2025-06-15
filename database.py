@@ -42,3 +42,27 @@ def get_user_by_email_and_password(email, password):
     conn.close()
     return user
 print(get_user_by_id(1))
+def get_user_by_email_and_password(email, password):
+    conn = connect_db()
+    cursor = conn.cursor()
+    cursor.execute("SELECT id, name, email, password, gender FROM users WHERE email = ? AND password = ?", (email, password))
+    user = cursor.fetchone()
+    conn.close()
+    return user
+
+def update_user_avatar(user_id, avatar):
+    conn = connect_db()
+    cursor = conn.cursor()
+    cursor.row_factory = dict_factory
+    cursor.execute('UPDATE users SET avatar = ? WHERE id = ?')
+    conn.commit()
+    conn.close()
+
+def update_user(user_id, name, gender):
+    conn = connect_db()
+    cursor = conn.cursor
+    cursor.row_factory = dict_factory
+    cursor.execute('UPDATE users SET name = ?, gender = ? WHERE id = ?', (name, gender, user_id))
+
+print(get_user_by_id(2))
+print(get_user_by_email("hellu@gmail.com"))

@@ -146,7 +146,52 @@ class Register(QMainWindow):
         self.login = Login()
         self.login.show()
         self.close()
-        
+
+class Home(QMainWindow):
+    def __init__(self, user_id):
+        super().__init__()
+        uic.loadUi("ui/home.ui", self)
+        self.user_id = user_id
+        self.user = get_user_by_id(user_id)
+
+        self.main_widget = self.findChild(QStackedWidget, "main_widget")
+        self.main_widget.setCurrentIndex(0)
+
+        self.btn_nav_home = self.findChild(QPushButton, "btn_nav_home")
+        self.btn_nav_account = self.findChild(QPushButton, "btn_nav_account")
+        self.btn_avatar = self.findChild(QPushButton, "btn_avatar")
+        self.lbl_avatar = self.findChild(QLabel, "lbl_avatar")  # Đảm bảo bạn có QLabel này trong UI
+
+        self.btn_nav_home.clicked.connect(lambda: self.navMainScreen(0))
+        self.btn_nav_account.clicked.connect(lambda: self.navMainScreen(1))
+        self.btn_avatar.clicked.connect(self.update_avatar)
+
+        self.loadAccountInfo()
+
+    def loadAccountInfo(self):
+        self.txt_name = self.findChild(QLineEdit, "txt_name")
+        self.txt_email = self.findChild(QLineEdit, "txt_email")
+
+        self.txt_name.setText(self.user["name"])
+        self.txt_email.setText(self.user["email"])
+
+        if self.user["avatar"]:  # Kiểm tra nếu có ảnh
+            self.btn_avatar.setIcon(QIcon(self.user["avatar"]))
+            self.lbl_avatar.setPixmap(QPixmap(self.user["avatar"]))
+
+    def update_avatar(self):
+        file, _ = QFileDialog.getOpenFileName(self, "Select Image", "", "Image files (*.png *.jpg *.jpeg *.bmp)")
+        if file:
+            self.user['avatar'] = file
+            self.btn_avatar.setIcon(QIcon(file))
+            self.lbl_avatar.setPixmap(QPixmap(file))
+            update_user_avatar(self.user_id, file)
+
+    def navMainScreen(self, index):
+        self.main_widget.setCurrentIndex(index)
+
+
+
 class Home(QMainWindow):
     def __init__(self, user_id):
         super().__init__()

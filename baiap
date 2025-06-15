@@ -1,0 +1,90 @@
+# class Animal:
+#     def __init__(self,name,species,sound,id):
+#         self.name = name
+#         self.species = species
+#         self.sound = sound
+#         self.id = id
+
+
+
+#     def updateAnimal(self,new_data;dict):
+#         for key , value in new_data.items():
+#             if value:
+#                 setattr(self,key,value)
+
+    
+    
+#     def __str__(self):
+#         return f"Title:{self.title}\nRelease date: {self.release_date}\nRating: {self.rating}\nLink :{self.link}"
+    
+
+# animal1 =Animal(1,"con su tu","co  vu","gam gu")
+# animal2 = Animal(2,"con bao hoa mai","co vu","meo meo")
+# animal3 = Animal(3,"con khi","co vu ","aaaaaaa")
+# animalList = [animal1,animal2,animal3]
+
+# class HinhVuong:
+#     def __init__(self,canh):
+#         self.canh = canh
+    
+#     def tinhchuvi(self):
+#         return 4 * self.canh
+    
+# hv = HinhVuong(5)
+# print(hv.tinhchuvi())
+
+# #bai2
+# class hocsinh:
+#      def __init__(self,diachi,ten,canang,chieucao):
+#          self.ten = ten
+#          self.diachi=diachi
+#          self.cannang = canang
+#          self.chieucao=chieucao
+
+
+        
+# def update(self,new_data;dict):
+#      for key , value in new_data.items():
+#              if value:
+#                  setattr(self,key,value)
+    
+# def __str__(self):
+#          return f"Title:{self.title}\ncanang :{self.release_date}\ndiachi :{self.rating}\nchieucaco :{self.link}"
+
+
+
+# hs1 =hocsinh(50,"trihung","30m""Phamhung")
+# hs2 = hocsinh(30,"duc","20m""phamhung")
+# hs3 = hocsinh(20,"trieu","100m""phamhug")
+# hslist = [hs1,hs2,hs3]
+
+# for hs in hslist:
+#      print(hs)
+
+# hs4 =hocsinh(80,"nam","20m""phamhung")
+# hslist.append(hs4)
+
+# for hs in hslist:
+#      print(hs)
+
+# id_to_delete = 2
+# for hs in animelist:
+#      if hs.id == id_to_delete:
+#          hslist.remove(anime)
+#          break
+
+# for i in range(len(hslist)):
+#      if hslist[i].id == id_to_delete:
+#          hs.pop(i)
+#          break
+# print("After deleting:")
+# for hs in hslist:
+#      print(hs)
+
+# new_data = {"diachi:""hungvuong"}
+# hs1.update(new_data)
+# print(hs1)
+
+# print("After updating:")
+# for hs in  hslist:
+#      print(hs)

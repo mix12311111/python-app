@@ -172,14 +172,14 @@
    <widget class="QPushButton" name="btn_register">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>420</y>
-      <width>93</width>
+      <x>600</x>
+      <y>0</y>
+      <width>191</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>register</string>
+     <string>You don have accouts</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">

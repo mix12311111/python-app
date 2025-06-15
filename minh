@@ -1,0 +1,140 @@
+# from PyQt6.QTwidgets import QApplication , QMainWindow
+# from PyQt6 import uic
+# import sys
+
+# class login(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         uic.loadUi("login.Ui",self)
+
+# if __name__ == '__main__':
+#     app = QApplication(sys.ar)
+
+
+class AnimeItem:
+     def __init__(self,id,name,release_dae,rating=None,link=None):
+         self.name= name
+         self.id = id
+         self.rating = rating
+         self.link = link
+
+
+        
+def update(self,new_data;dict):
+     for key , value in new_data.items():
+             if value:
+                 setattr(self,key,value)
+    
+def __str__(self):
+         return f"Title:{self.title}\nRelease date: {self.release_date}\nRating: {self.rating}\nLink :{self.link}"
+
+
+
+anime1 = AnimeItem(1,"jujutsu no kaisen","01/01/2022")
+anime2 = AnimeItem(2,"kimetsu no yaiba","01/05/2022")
+anime3 = AnimeItem(3,"Attack on titan","05/05/2019")
+animelist = [anime1,anime2,anime3]
+
+for anime in animelist:
+     print(anime)
+
+anime4 = AnimeItem(4,"Attack on Titan","2013-04-07")
+animelist.append(anime4)
+
+for anime in animelist:
+     print(anime)
+
+id_to_delete = 2
+for anime in animelist:
+     if anime.id == id_to_delete:
+         animelist.remove(anime)
+         break
+
+for i in range(len(animelist)):
+     if animelist[i].id == id_to_delete:
+         animelist.pop(i)
+         break
+print("After deleting:")
+for anime in animelist:
+     print(anime)
+
+new_data = {"rating:"9.5}
+anime1.update(new_data)
+print(anime1)
+
+print("After updating:")
+for anime in animelist:
+     print(anime)
+
+
+# class Animal:
+#     def __init__(self,name,species,sound,id):
+#         self.name = name
+#         self.species = species
+#         self.sound = sound
+#         self.id = id
+
+
+
+#     def updateAnimal(self,new_data;dict):
+#         for key , value in new_data.items():
+#             if value:
+#                 setattr(self,key,value)
+
+    
+    
+#     def __str__(self):
+#         return f"Title:{self.title}\nRelease date: {self.release_date}\nRating: {self.rating}\nLink :{self.link}"
+    
+
+# animal1 =Animal(1,"con su tu","co  vu","gam gu")
+# animal2 = Animal(2,"con bao hoa mai","co vu","meo meo")
+# animal3 = Animal(3,"con khi","co vu ","aaaaaaa")
+# animalList = [animal1,animal2,animal3]
+
+
+# class AnimeList:
+#     def __init__(self):
+#         self.animeList = []
+    
+#     def add(self,anime:AnimeItem):
+#         self.animeList.append(anime)
+
+# anime5 = AnimeItem(5,"skbidiolet","2020-04-07")
+# animelist.append(anime5)
+
+#     def update(self,new_data;dict):
+      
+#       for key , value in new_data.items():
+#              if value:
+#                  setattr(self,key,value)
+    
+#     def __str__(self):
+#          return f"Title:{self.title}\nRelease date: {self.release_date}\nRating: {self.rating}\nLink :{self.link}"
+
+# id_to_delete = 2
+# for anime in animelist:
+#      if anime.id == id_to_delete:
+#          animelist.remove(anime)
+#          break
+
+# for i in range(len(animelist)):
+#      if animelist[i].id == id_to_delete:
+#          animelist.pop(i)
+#          break
+# for i in range(len(animelist)):
+#      if animelist[i].id == id_to_delete:
+#          animelist.pop(i)
+#          break
+# print("After deleting:")
+# for anime in animelist:
+#      print(anime)
+
+# new_data = {"rating:"9}
+# anime1.update(new_data)
+# print(anime1)
+
+# print("After updating:")
+# for anime in animelist:
+#      print(anime)
+
