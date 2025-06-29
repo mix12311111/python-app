@@ -240,4 +240,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     login = Login()
     login.show()
-    sys.exit(app.exec())
+    sys.exit(app.exec())self.btn_avatar.setIcon(QIcon(file))self.btn_avatar.setIcon(QIcon(file))
+       self.txt_name.setText(self.user["name"])
+        self.txt_email.setText(self.user["email"])

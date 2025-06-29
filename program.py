@@ -154,7 +154,7 @@ class Home(QMainWindow):
         self.user_id = user_id
         self.user = get_user_by_id(user_id)
 
-
+       
         self.main_widget = self.findChild(QStackedWidget, "main_widget")
         self.main_widget.setCurrentIndex(0)
         
@@ -171,9 +171,23 @@ class Home(QMainWindow):
     def loadAccountInfo(self):
         self.txt_name = self.findChild(QLineEdit, "txt_name")
         self.txt_email = self.findChild(QLineEdit, "txt_email")
-        self.btn_avatar.setIcon(QIcon(file))
-        self.txt_name.setText(self.user["name"])
-        self.txt_email.setText(self.user["email"])
+        avatar_path = self.user.get("avatar", "")
+        if avatar_path:
+            self.btn_avatar.setIcon(QIcon(avatar_path))
+        self.txt_name.setText(str(self.user["name"]))
+        self.txt_email.setText(str(self.user["email"]))
+
+
+        def _init_(self,user_id):
+            self.txt_name = self.findChild(QLineEdit,"txt_name")
+            self.txt.email = self.findchild(QLineEdit, "txt_email")
+            self.txt_dob =self.findChild(QDateEdit,"txt_dob")
+            self.cb_gender = self.findChild(QComboBox,"Cb-gendr")
+
+            self.radio_male = self.findChild(QRadioButton,"radio_male")
+            self.radio_female = self.findChild(QRadioButton,"radio_female")
+            self.radio_oher                             
+
 
     
     
