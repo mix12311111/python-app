@@ -43,6 +43,9 @@ background:rgb(255, 255, 255);</string>
       <property name="text">
        <string/>
       </property>
+      <property name="pixmap">
+       <pixmap>../img/Đặt đồ ăn Online cùng GrabFood _ GrabFood Vietnam_files/GrabFood-DAX-Desktop-Content-3.png</pixmap>
+      </property>
      </widget>
      <widget class="QLabel" name="label_2">
       <property name="geometry">
@@ -79,7 +82,7 @@ background:rgb(255, 255, 255);</string>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../../../../Downloads/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/grabcar-copy@500-120x120.png</normaloff>../../../../../Downloads/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/grabcar-copy@500-120x120.png</iconset>
+        <normaloff>../img/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/grabcar-copy@500-120x120.png</normaloff>../img/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/grabcar-copy@500-120x120.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -151,7 +154,7 @@ background:rgb(255, 255, 255);</string>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../../../../Downloads/download (2).jfif</normaloff>../../../../../Downloads/download (2).jfif</iconset>
+        <normaloff>../img/Đặt đồ ăn Online cùng GrabFood _ GrabFood Vietnam_files/GrabFood-DAX-Desktop-Content-3.png</normaloff>../img/Đặt đồ ăn Online cùng GrabFood _ GrabFood Vietnam_files/GrabFood-DAX-Desktop-Content-3.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -417,7 +420,7 @@ background:rgb(255, 255, 255);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../../../../../Downloads/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/grabcar-copy@500-120x120.png</pixmap>
+       <pixmap>../img/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/standard–taxi@500-120x120.png</pixmap>
       </property>
      </widget>
      <widget class="QLabel" name="label_28">
@@ -464,7 +467,7 @@ background:rgb(255, 255, 255);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../../../../../Downloads/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/standard–taxi@500-120x120.png</pixmap>
+       <pixmap>../img/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/grabcar-copy@500-120x120.png</pixmap>
       </property>
      </widget>
      <widget class="QLabel" name="label_31">
@@ -524,7 +527,7 @@ background:rgb(255, 255, 255);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../../../../../Downloads/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/justgrab-copy@500-120x120.png</pixmap>
+       <pixmap>../img/Dịch vụ Đặt Xe Công Nghệ _ Grab Vietnam_files/justgrab-copy@500-120x120.png</pixmap>
       </property>
      </widget>
      <widget class="QLabel" name="label_35">
@@ -680,7 +683,7 @@ background:rgb(255, 255, 255);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../../../../../Downloads/Đặt đồ ăn Online cùng GrabFood _ GrabFood Vietnam_files/GrabFood-DAX-Desktop-Content-1.png</pixmap>
+       <pixmap>../img/Đặt đồ ăn Online cùng GrabFood _ GrabFood Vietnam_files/GrabFood-DAX-Desktop-Content-1.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>

@@ -1,0 +1,17 @@
+/**
+ * Normalise column height for elementor multi column structure
+ * with card widgets (snippet card and callout card)
+ */
+(($) => {
+    const setHeight = () => {
+        $('.gfb-card-wrapper').each(function() {
+            $(this).closest('.elementor-widget-container').height('100%');
+            $(this).closest('.elementor-widget-callout_card').height('100%');
+            $(this).closest('.elementor-widget-snippet_card').height('100%');
+            $(this).closest('.elementor-widget-gfb-callout_card').height('100%');
+            $(this).closest('.elementor-widget-gfb-snippet_card').height('100%');
+            $(this).closest('.gfb-main-wrapper').height('100%');
+        });
+    };
+    $(document).ready(setHeight);
+})(jQuery);
